@@ -1,0 +1,15 @@
+﻿using Csharp_mastery._1_Methods;
+
+namespace Csharp_mastery
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            MethodsDemo.Run();
+
+          
+        }
+
+    }
+}
