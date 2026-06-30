@@ -1,4 +1,5 @@
-﻿using Csharp_mastery._1_Methods;
+﻿using Csharp_mastery._02_OOPs;
+using Csharp_mastery._1_Methods;
 
 namespace Csharp_mastery
 {
@@ -7,7 +8,7 @@ namespace Csharp_mastery
         static void Main(string[] args)
         {
             MethodsDemo.Run();
-
+            OOPsDemo.Run();
           
         }
 

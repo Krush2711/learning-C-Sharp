@@ -25,29 +25,56 @@ namespace Csharp_mastery._1_Methods
 
             //  4th _> stundet marks 
 
-            Console.Write("Enter Maths marks : ");
-            int maths = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter Maths marks : ");
+            //int maths = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter English marks : ");
-            int English = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter English marks : ");
+            //int English = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Marathi marks : ");
-            int Marathi = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter Marathi marks : ");
+            //int Marathi = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Science marks : ");
-            int Science = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter Science marks : ");
+            //int Science = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter History marks : ");
-            int History = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter History marks : ");
+            //int History = Convert.ToInt32(Console.ReadLine());
 
-            double percnet  = Avg(maths, History, Marathi, Science, English);
+            //double percnet  = Avg(maths, History, Marathi, Science, English);
 
-            Console.WriteLine($"Percantage is : {percnet}");
-            Console.WriteLine($"Grade  is : {Grade(percnet)}");
-            Console.WriteLine($"Reuslt  is : {IsPassed(maths, History, Marathi, Science, English)}");
+            //Console.WriteLine($"Percantage is : {percnet}");
+            //Console.WriteLine($"Grade  is : {Grade(percnet)}");
+            //Console.WriteLine($"Reuslt  is : {IsPassed(maths, History, Marathi, Science, English)}");
 
 
+            //Console.WriteLine(CalculateArea(10));
+            //Console.WriteLine(CalculateArea(10, 6));
+            //Console.WriteLine(CalculateArea(3.14, 6));
+
+            //OptionalParamter("I am");
          }
+
+
+        public static void OptionalParamter(string s = "hero")
+        {
+            GreetBanner(s);
+        }
+
+        public static int CalculateArea(int a)
+        {
+            Console.WriteLine("I am squre");
+            return a * a;
+        }
+        public static int CalculateArea(int a, int  b)
+        {
+            Console.WriteLine("I am recatngle");
+            return a * b;
+        }
+        public static double CalculateArea( double pi, int radius)
+        {
+            Console.WriteLine("I am circle");
+            return pi * radius;
+        }
 
         public static double Avg(int a, int b , int c , int d, int f)
         {
